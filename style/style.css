@@ -8,6 +8,10 @@ padding: 5px;
 h2{font-family: "Trebuchet MS", Verdana, sans-serif;
 color: teal;
 font-size: 36px;
+ border: 2px solid black;
+border-radius: 20px;
+padding: 3px;
+display: inline;
 }
 h3{font-family: "Trebuchet MS", Verdana, sans-serif;
 color: teal;
