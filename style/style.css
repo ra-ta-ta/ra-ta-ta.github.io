@@ -9,7 +9,8 @@ padding: 5px;
 h2{font-family: "Trebuchet MS", Verdana, sans-serif;
 color: teal;
 font-size: 36px;
-border: 2px solid;
+border-width: 2px; 
+border-style: solid;
 border-radius: 20px;
 padding: 3px;
 display: inline;
@@ -24,7 +25,8 @@ body {
 }
 p{font-family: "Trebuchet MS", Verdana, sans-serif;
 font-size: 24px;
-color: gray;
+color: Grey;
+
 margin-right: 25px;
 margin-left: 15px;
 }
@@ -88,9 +90,9 @@ p.justify{font-size: 30px;
 #darkSwitch+.lb1 {
                display: inline-block;
                position: relative;
-               width: 50px;
-               height: 30px;
-               border-radius: 30px;
+               width: 48px;
+               height: 29px;
+               border-radius: 10px;
                cursor: pointer;
 			   margin: 0px;
 			  text-align: right;
@@ -99,17 +101,17 @@ p.justify{font-size: 30px;
                display: block;
                content: attr(data-offlabel);
                position: absolute;
-               top: 9px;
-               right: 5px;
+               top: 15px;
+               right: 2px;
                color: black;
                font-family: 'Open Sans', sans-serif;
                font-size: 9px;
 }
 #darkSwitch+.lb1::after {
-     border-radius: 50%;
+     border-radius: 199px;
                content: '';
                position: absolute;
-               top: 2px;
+               top: 1px;
                left: 2px;
                width: 27px;
                height: 27px;
@@ -123,7 +125,7 @@ p.justify{font-size: 30px;
 }
 #darkSwitch:checked+.lb1::after {
                left: 21px;
-               background-color: gray;
+               background-color: Silver;
 }
  
 #darkSwitch+.lb1 {             
