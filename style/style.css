@@ -24,8 +24,7 @@ border-width: 2px;
 border-style: solid;
 border-radius: 20px;
 padding: 3px;
-display: inline;
-max-width: 100%;
+display: inline-block;
 }
 h3{font-family: "Furore", 'Comic Sans MS', cursive;
 color: teal;
