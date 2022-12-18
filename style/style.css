@@ -121,7 +121,7 @@ p.justify{font-size: 30px;
                width: 70px;
                height: 27px;
                background-color: green;
-               font-size: 15px;
+               font-size: 90%;
 			   text-align: center;
 			   
 }
@@ -136,7 +136,7 @@ p.justify{font-size: 30px;
                background-color: #a0a0a0;			   
 			   content: 'дарке';
 			   font-family: "Furore", 'Comic Sans MS', cursive;
-			   font-size: 15px;
+			   font-size: 90%;
                position: absolute;
 		       text-align: center;
 }
