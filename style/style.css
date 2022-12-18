@@ -15,6 +15,7 @@ font-size: 46px;
 border-radius: 10px;
 padding: 5px;
 max-width: 100%;
+display: block;
 }
 h2{font-family: "Furore", 'Comic Sans MS', cursive;
 color: teal;
@@ -150,9 +151,6 @@ background-color: #ccc;
 #darkSwitch:checked+.lb1::before {
                color: #fff;
 }
-#darkSwitch:active {
-  background: Marron
-}
 
 .button {
   border: none;
@@ -162,7 +160,7 @@ background-color: #ccc;
   text-decoration: none;
   cursor: pointer;
   font-size: 20px;
-  font-family: Leto, 'Comic Sans MS', cursive;
+  font-family: "Furore", 'Comic Sans MS', cursive;
   padding: 12px 16px;
   border-radius: 10px;
   color: #fff;
