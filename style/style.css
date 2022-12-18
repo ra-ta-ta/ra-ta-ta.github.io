@@ -53,7 +53,6 @@ img{float: left;
 border-radius: 15px;
 margin-left: 0,5%;
 display: block;
-max-width: 100%;
 }
 a{text-decoration: none;
 color: olive;
@@ -112,38 +111,35 @@ p.justify{font-size: 30px;
 #darkSwitch+.lb1::before {
                display: block;
                content: attr(data-offlabel);
-               position: fixed;
-			   top: 2%;
-			   right: 3.2%;
-			   font-family: "Furore", 'Comic Sans MS', cursive;
-               font-size: 15px;
-			   text-align: center;
-			   content: 'светло';	
-			   max-width: 100%;
-
 }
 #darkSwitch+.lb1::after {
-     border-radius: 400px;
-               content: '';
+               border-radius: 400px;
+               content: 'темно';
 			   font-family: "Furore", 'Comic Sans MS', cursive;
-			   font-size: 10px;
                position: absolute;
                top: 1px;
                left: 2px;	
-               width: 27px;
+               width: 70px;
                height: 27px;
-               background-color: green; 		   
+               background-color: green;
+               font-size: 15px;
+			   text-align: center;
+			   
 }
 #darkSwitch:checked+.lb1::before {
                content: attr(data-onlabel);
-               left: 16px;
+               left: 6px;
                right: auto;
                color: #fff;
-			   
 }
 #darkSwitch:checked+.lb1::after {
-	           left: 62px;
-               background-color: Silver;	
+	           left: 19px;
+               background-color: #a0a0a0;			   
+			   content: 'светло';
+			   font-family: "Furore", 'Comic Sans MS', cursive;
+			   font-size: 14px;
+               position: absolute;
+		       text-align: center;
 }
  
 #darkSwitch+.lb1 {             
@@ -154,15 +150,8 @@ background-color: #ccc;
 }
 #darkSwitch:checked+.lb1::before {
                color: #fff;
-			   position: fixed;
-			   top: 2%;
-			   right: 3.4%;
-			   font-family: "Furore", 'Comic Sans MS', cursive;
-               font-size: 15px;
-			   text-align: right;
-			   content: 'темно';
-			   max-width: 100%;
 }
+
 
 .button {
   border: none;
