@@ -99,7 +99,7 @@ p.justify{font-size: 30px;
 }
 #darkSwitch+.lb1 {
                display: block;
-               position: relative;
+               position: fixed;
                width: 90px;
                height: 29px;
                border-radius: 10px;
