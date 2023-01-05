@@ -24,7 +24,7 @@ border-width: 2px;
 border-style: solid;
 border-radius: 20px;
 padding: 3px;
-display: inline-block;
+display: inline;
 }
 h3{font-family: "Furore", 'Comic Sans MS', cursive;
 color: teal;
@@ -98,7 +98,7 @@ p.justify{font-size: 30px;
                transition: all .3s;
 }
 #darkSwitch+.lb1 {
-               display: inline-block;
+               display: block;
                position: relative;
                width: 90px;
                height: 29px;
