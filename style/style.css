@@ -94,10 +94,10 @@ p.justify{font-size: 30px;
  margin-left: 350px;
  }
 
-.lb1 { display: inline;
+.lb1 {
 }
 #darkSwitch {       
-               display: none;
+               display: inline-block;
 }
 #darkSwitch+.lb1, #darkSwitch+.lb1::before, #darkSwitch+.lb1::after {
                transition: all .3s;
