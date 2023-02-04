@@ -67,6 +67,11 @@ div{
    text-align:center;
    max-width: 100%;
 }
+hr {width: auto;
+background-color: grey;
+margin-right: 50px;
+margin-left: 50px;
+}
 .darke{ 
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -92,7 +97,7 @@ p.justify{font-size: 30px;
 .lb1 { 
 }
 #darkSwitch {       
-               display: none;
+               display: inline-block;
 }
 #darkSwitch+.lb1, #darkSwitch+.lb1::before, #darkSwitch+.lb1::after {
                transition: all .3s;
