@@ -71,7 +71,8 @@ hr {width: auto;
 background-color: grey;
 margin-right: 50px;
 margin-left: 50px;
-margin-top: 5%;
+margin-top: 10em;
+margin-bottom: auto;
 }
 .darke{ 
   -webkit-transition: all 0.3s ease;
@@ -98,7 +99,7 @@ p.justify{font-size: 30px;
 .lb1 {
 }
 #darkSwitch {       
-               display: inline-block;
+               display: none;
 }
 #darkSwitch+.lb1, #darkSwitch+.lb1::before, #darkSwitch+.lb1::after {
                transition: all .3s;
